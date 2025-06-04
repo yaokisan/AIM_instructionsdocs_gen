@@ -1,3 +1,7 @@
+## 注意点
+・このアプリはfrontendディレクトリとbackendディレクトリを分けてvercelでデプロイしています。
+・特にbackendディレクトリではmainブランチではなくdev/local-fixesをデプロイした方のURLを、page.jsxで使用されるURLとして設定しているのでこんがらがらないよう注意が必要です。
+
 ## backend
 cd api
 
